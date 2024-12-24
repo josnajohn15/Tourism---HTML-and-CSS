@@ -39,20 +39,21 @@ export class HomeComponent {
    {
     id: 1,
     alt:'Brentwood',
-    src:'https://th.bing.com/th/id/OIP.uPq8YTb9ffTuh0YeMoNF6QHaFj?w=232&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7'
+    src:'https://images.creativemarket.com/0.1.0/ps/7901649/1897/1265/m1/fpnw/wm0/creativee-04-.jpg?1583899404&s=3c84cc2691e5c44f6326ac343fb467b9'
 
    },
-   {
+   
+  {
     id: 2,
-    alt:'Zamba',
-    src:'https://th.bing.com/th/id/OIP.qNYzGNbZVGf6lMDWOCqZAAHaHa?w=191&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7'
-
-   },
+    alt:'Anoka',
+    src:'http://ts4.mm.bing.net/th?id=OIP.sttFTW_zSURPXXbfzAh_vwHaHa&pid=15.1'
+  },
   {
     id: 3,
-    alt:'Anoka',
-    src:'https://th.bing.com/th/id/OIP.Qm24x0JszEp-Q3vHy2RcWQHaHa?rs=1&pid=ImgDetMain'
+    alt:'Kali',
+    src:'https://png.pngtree.com/png-clipart/20200226/original/pngtree-hand-drawn-lettering-let-s-traveling-quote-typography-vector-lettering-png-image_5323136.jpg'
   },
+
 
   ]
   

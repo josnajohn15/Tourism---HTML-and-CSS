@@ -1,4 +1,4 @@
-<app-navbar></app-navbar>
+
 <!-- Hero Section -->
 <div class="hero-section text-center">
   <h1 class="display-4">Discover India</h1>
@@ -8,10 +8,13 @@
 <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://cdn.pixabay.com/photo/2023/03/26/20/48/tajmahal-7879103_1280.jpg" class="d-block w-100" alt="Switzerland Lake">
+      <img src="https://cdn1.tripoto.com/media/filter/nxxl/img/2/Image/1555426507_1552566979_manali_ppc.jpg" class="d-block w-100" alt="">
     </div>
     <div class="carousel-item">
-      <img src="https://cdn.pixabay.com/photo/2018/02/25/21/34/temple-3181803_1280.jpg" class="d-block w-100" alt="Swiss Alps">
+      <img src="https://cdn1.tripoto.com/media/filter/nxxl/img/1442601/Image/1585901492_3_2.jpg" class="d-block w-100" alt="">
+    </div>
+    <div class="carousel-item">
+      <img src="https://trekveda.com/img/uttarakhand-banner-1.png" class="d-block w-100" alt="">
     </div>
     
   </div>
@@ -48,7 +51,7 @@
 
     <ng-container *ngFor="let slide of cimages">
       <ng-template carouselSlide [id]="slide.id.toString()">
-        <img [src]="slide.src" [alt]="slide.alt">
+        <img [src]="slide.src" [alt]="slide.alt" height="280px" width="100px">
       </ng-template>
     </ng-container>
 
